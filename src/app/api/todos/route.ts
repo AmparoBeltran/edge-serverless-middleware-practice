@@ -3,7 +3,7 @@
 export const dynamic = "force-dynamic";
 
 //with the next line the following functions will be edge functions
-// export const runtime = "edge"
+export const runtime = "edge";
 
 import { todos } from "@/lib/data";
 import { NextResponse } from "next/server";
